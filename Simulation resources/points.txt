@@ -1,0 +1,21 @@
+initial energy = 1000 joule
+
+random topology
+NOTE: 
+/home/user/Desktop/Objective_Function/COMPOSITE_RPL/contiki/examples/ipv6/rpl-udp/udp-client.c
+/home/user/Desktop/Objective_Function/COMPOSITE_RPL/contiki/core/net/rpl/rpl_mrhof.c
+1 DAG rank is calculated from udp-client.c file and ETX , step value and rank inc value is calculated from rpl_mrhof.c file
+
+/home/user/Desktop/Objective_Function/COMPOSITE_RPL/contiki/core/net/rpl/rpl-icmp6.c
+2 BDI calculation is done by rpl-icmp6.c file
+
+
+3 energy consumption is defined in tcpip.c file
+4 data aggregation method is defined in uip6.c file
+
+/home/user/Desktop/Objective_Function/COMPOSITE_RPL/contiki/core/net/rpl
+5 rpl initial enegy value is filed in rplconfig.h file
+
+
+6 data sent time and receive time is defined in udp-client.c file and udp-server.c file respectively
+7 rpl minhoprank val is maintained in rpl-private.h file 
